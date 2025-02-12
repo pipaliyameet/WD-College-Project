@@ -1,0 +1,62 @@
+body {
+    color: black;
+    height: 375vh;
+    width: 100%;
+    background-image: linear-gradient(orange, white, green);
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: wheat;
+    text-align: center;
+    line-height: 400%;
+}
+
+.link{
+    transition: 2s;
+}
+.link:hover{
+    transform: scale(1.2);
+}
+.link ul{
+    height: 5vh;
+    width: 50%;
+    background-color: wheat;
+    text-align: center;
+    line-height: 200%;
+    margin-left: 295px;
+    font-size: 17px;
+
+}
+
+/* .link ul:hover{
+    height: 7vh;
+    width: 60%;
+    line-height: 300%;
+    font-size: 20px;
+} */
+/* a:hover{
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 1s;
+} */
+.link a{
+    margin-left: 50px;
+    /* display: flex; */
+    /* margin-right: 60px ; */
+}
+.link ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.footer{
+    height: 12vh;
+    width: 100%;
+    background-color: wheat;
+    text-align: center;
+    line-height: 200%;
+    transition: ease-in-out;
+}

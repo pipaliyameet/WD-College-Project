@@ -1,0 +1,41 @@
+body {
+    color: black;
+    height: 190vh;
+    width: 100%;
+    background-image: linear-gradient(orange, white, green);
+}
+
+.link ul:hover{
+    height: 5vh;
+    width: 50%;
+    background-color: wheat;
+    text-align: center;
+    line-height: 200%;
+    margin-left: 295px;
+    font-size: 17px;
+    transition: 1s;
+
+}
+/* a:hover{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+} */
+.link a{
+    margin-left: 50px;
+    /* display: flex; */
+    /* margin-right: 60px ; */
+}
+.link ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.footer{
+    height: 12vh;
+    width: 100%;
+    background-color: wheat;
+    text-align: center;
+    line-height: 200%;
+    transition: ease-in-out;
+}
