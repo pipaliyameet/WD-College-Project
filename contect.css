@@ -5,7 +5,7 @@ body {
     background-image: linear-gradient(orange, white, green);
 }
 
-.link ul:hover{
+.link {
     height: 5vh;
     width: 50%;
     background-color: wheat;
@@ -13,7 +13,7 @@ body {
     line-height: 200%;
     margin-left: 295px;
     font-size: 17px;
-    transition: 1s;
+    /* transition: 1s; */
 
 }
 /* a:hover{
