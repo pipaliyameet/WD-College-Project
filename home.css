@@ -1,21 +1,35 @@
 body {
     color: black;
     height: 375vh;
-    width: 100%;
+    /* width: 100%; */
     background-image: linear-gradient(orange, white, green);
+}
+
+.header{
+    background-color: wheat;
+    height: 7vh;
+    text-align: center;
+    line-height: 300%;
 }
 
 .link {
     height: 5vh;
-    width: 50%;
-    background-color: wheat;
+    width: 100%;
+    background-color: white;
     text-align: center;
     line-height: 200%;
-    margin-left: 295px;
     font-size: 17px;
+    position: sticky;
+    top: 5%;
     /* transition: 1s; */
-
 }
+
+.link ul{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+
 /* a:hover{
     color: red;
     text-decoration: none;
@@ -23,14 +37,24 @@ body {
 } */
 .link a{
     margin-left: 50px;
+    text-align: center;
     /* display: flex; */
     /* margin-right: 60px ; */
 }
-.link ul{
-    list-style-type: none;
-    display: flex;
+
+#first{
+    margin-left: 300px;
 }
 
+.tital{
+    /* background-color: wheat; */
+    height: 5vh;
+    color: darkblue;
+}
+
+.under{
+    color: rgb(128, 7, 97);
+}
 .footer{
     height: 12vh;
     width: 100%;
