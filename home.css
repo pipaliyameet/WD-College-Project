@@ -10,6 +10,7 @@ body {
     height: 7vh;
     text-align: center;
     line-height: 300%;
+    
 }
 
 .link {
@@ -28,6 +29,7 @@ body {
     list-style-type: none;
     display: flex;
     text-align: center;
+    
 }
 
 /* a:hover{
@@ -38,12 +40,19 @@ body {
 .link a{
     margin-left: 50px;
     text-align: center;
+    text-decoration: none;
+
     /* display: flex; */
     /* margin-right: 60px ; */
 }
 
+.leater{
+    font-family: sans-serif;
+    font-style:inherit;
+}
+
 #first{
-    margin-left: 300px;
+    margin-left: 370px;
 }
 
 .tital{
@@ -54,6 +63,7 @@ body {
 
 .under{
     color: rgb(128, 7, 97);
+    font-style: inherit;
 }
 .footer{
     height: 12vh;

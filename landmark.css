@@ -32,8 +32,13 @@ body {
 .link a{
     margin-left: 50px;
     text-align: center;
+    text-decoration: none;
     /* display: flex; */
     /* margin-right: 60px ; */
+}
+.leater{
+    font-family: sans-serif;
+    font-style:inherit;
 }
 
 #first{

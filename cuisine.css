@@ -31,6 +31,7 @@ body {
 .link a{
     margin-left: 50px;
     text-align: center;
+    text-decoration: none;
     /* display: flex; */
     /* margin-right: 60px ; */
 }
@@ -43,6 +44,10 @@ body {
     /* background-color: wheat; */
     height: 5vh;
     color: darkblue;
+}
+.leater{
+    font-family: sans-serif;
+    font-style:inherit;
 }
 
 .under{
