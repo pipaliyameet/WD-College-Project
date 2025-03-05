@@ -3,6 +3,19 @@ body {
     height: 190vh;
     /* width: 100%; */
     background-color: #E6E6FA;
+    animation: main_header;
+    animation-duration: 0s;
+    animation-direction: normal;
+/* position: relative; */
+}
+@keyframes main_header{
+    from{
+        opacity: 0;
+        top: 200px;
+    }
+    to{
+      top: 0px;
+    }
 }
 
 .link{
@@ -22,6 +35,16 @@ body {
     flex-direction: row;
     justify-content: center;
     line-height: 35px;
+    animation: nav 2s ease-in 1s normal backwards;
+}
+@keyframes nav{
+    from{
+        opacity: 0;
+        top: 200px;
+    }
+    to{
+        top: 0px;
+    }
 }
 .link a{
     margin-left: 50px;
@@ -31,6 +54,23 @@ body {
 .leater{
     font-family: sans-serif;
     font-style:inherit;
+}
+mark{
+    background-color: #6B5B95;
+    padding: 5px 10px;
+    color: white;
+}
+.container{
+    animation: main 1s ease-in 3s normal backwards;
+}
+@keyframes main{
+    from{
+        opacity: 0;
+        top: 200px;
+    }
+    to{
+        top: 0px;
+    }
 }
 
 .tital{

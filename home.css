@@ -5,17 +5,27 @@ body {
     /* background-position: center; */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
-    /* backdrop-filter: blur(10px); */
+    /* backdrop-filter: blur(10px); */animation: main_header;
+    animation-duration: 2.5s;
+    animation-direction: normal;
+/* position: relative; */
 }
-
+@keyframes main_header{
+    from{
+        opacity: 0;
+        top: 200px;
+    }
+    to{
+      top: 0px;
+    }
+}
 .header{
-    background-color: #FFE5B4;
+    /* background-color: #FFE5B4; */
     height: 7vh;
     text-align: center;
     line-height: 300%;
+    
 }
-
-
 .link{
     height: 6vh;
     width: 100%;
@@ -27,15 +37,40 @@ body {
     top: 0%;
     list-style-type: none;
     display: flex;
-    margin-top: 10px;
+    margin-top: 110px;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
     line-height: 35px;
+    animation: nav 2s ease-in 1s normal backwards;
 }
-
-
+@keyframes nav{
+    from{
+        opacity: 0;
+        top: 200px;
+    }
+    to{
+        top: 0px;
+    }
+}
+.conteinar{
+    animation: main 1s ease-in 3s normal backwards;
+}
+@keyframes main{
+    from{
+        opacity: 0;
+        top: 200px;
+    }
+    to{
+        top: 0px;
+    }
+}
+mark{
+    background-color: #6B5B95;
+    padding: 5px 10px;
+    color: white;
+}
 .link a{
     margin-left: 50px;
     text-align: center;
