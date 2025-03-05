@@ -1,22 +1,23 @@
 <html>
     <head>
-        <title>
-            Contect Us
-        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Contect Us</title>
 
         <link rel="stylesheet" href="./contect.css">
+        
     </head>
     <body>
         
         <div class="link">
-            <ul>
-                <li><a href="home.html" id="first">Home</a></li>
-                <li><a href="culture.html" target="_self">Culture</a></li>
-                <li><a href="landmarks.html">Landmarks</a></li>
-                <li><a href="cuisine.html">Cuisine</a></li>
-                <li><a href="contect.html">Contect Us</a></li>
-            </ul>
+            <li><a href="home.html" id="first">Home</a></li>
+            <li><a href="culture.html" target="_self">Culture</a></li>
+            <li><a href="landmarks.html">Landmarks</a></li>
+            <li><a href="cuisine.html">Cuisine</a></li>
+            <li><a href="contect.html">Contect Us</a></li>
         </div>
+
 
         <div class="tital">
             <h1>~ Contect Us</h1>
@@ -30,136 +31,117 @@
             <h2>~ Student Registration Form</h2>
         </div>
 
-        <table>
-            <tr>
-                <td><label for="firstname">First Name</label></td>
-                <td>:</td>
-                <td><input id="firstname" type="text" placeholder="Enter your first name" size="18"></td>
-            </tr>
+        <form action="">
 
-            <tr>
-                <td><label for="password">password:</label></td>
-                <td>:</td>
-                <td><input id="password" type="text" placeholder="Enter your password" size="18"></td>
-            </tr>
-
-            <tr>
-                <td>Gender</td>
-                <td>:</td>
-                <td>
-                    <input type="radio" name="gender" id="male">
+            <fieldset  >
+                <legend >First Name</legend>
+                <input class="myInput" type="text" style="background: transparent; border: 0; outline: 0;">
+            </fieldset>
+            <br>
+            <fieldset >
+                <legend>password</legend>
+                <input class="myInput" type="number" style="background: transparent; border: 0; outline: 0;">
+            </fieldset>
+            <br>
+            <fieldset >
+                <legend>Gender</legend>
+                    <input type="radio" name="gender" id="male"class="myInput" type="number" style="background: transparent; border: 0; outline: 0;">
                     <label for="male">male</label>
                     <input type="radio" name="gender" id="female">
                     <label for="female">female</label>
-                </td>
-            </tr>
+            </fieldset>
+            <br>
+            <fieldset >
+                <legend>Subscribe to Newsletter</legend>
+                <input type="checkbox" class="myInput" type="number" style="background: transparent; border: 0; outline: 0;" >
+            </fieldset>
+            <br>            
+            <fieldset >
+                <legend>State</legend>
+                <select class="myInput" type="text" style="background: transparent; border: 0; outline: 0;">
+                    
+                    <option disabled selected>
+                        select your State 
+                    </option>
+                    <option>
+                        Andhra pradesh
+                    </option>
+                    <option>
+                        Arynachal pradesh
+                    </option>
+                    <option>
+                        Assam
+                    </option>
+                    <option>
+                        Bihar
+                    </option>
+                    <option>
+                        Chattisgarth
+                    </option>
+                    <option>
+                        Goa
+                    </option>
+                    <option>
+                        Gujarat
+                    </option>
+                    <option>
+                        Haryana
+                    </option>
+                    <option>
+                        Himachal Pradesh
+                    </option>
+                    <option>
+                        Jharkhand
+                    </option>
+                    <option>
+                        Karnataka
+                    </option>
+                    <option>
+                        Kerala
+                    </option>
+                    Rajasthan
+                    </option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset >
+                <legend>Uplod Resume</legend>
+                <input type="file"   class="myInput" type="text" style="background: transparent; border: 0; outline: 0;">
+            </fieldset>
+            <br>
+            <fieldset >
+                <legend>Address</legend>
+                <input class="myInput" type="text" style="background: transparent; border: 0; outline: 0;">
+            <br>
+            </fieldset>
+            <br>
+            <fieldset >
+                <legend>Date of Birth</legend>
+                <input type="date" id="fname" style="background: transparent; border: 0; outline: 0;">
+            </fieldset>
+            <br>
+            <fieldset >
+                <legend>Preferred Interview Time </legend>
+                <input type="time" name="interview_time" style="background: transparent; border: 0; outline: 0;">
+            </fieldset>
+            <br>
+            <fieldset >
+                <legend>Marks</legend>
+                <input type="number" size="6" style="background: transparent; border: 0; outline: 0;">
+            </fieldset>
+                <input type="submit" size="6" style="background: transparent;margin-left: 270px; margin-top: 10px; width: 14%;"placeholder="Submit">
+                <input type="reset" size="6" style="
+                background: transparent; margin-top: 10px; width: 14%; margin-left: 270px;margin-bottom: 10px;" placeholder="Reset">
+            
+        </form>
 
-            <tr>
-                <td colspan="3">Subscribe to Newsletter:
-                    <input type="checkbox" >
-                </td>
-            </tr>
-
-            <tr>
-                <td>State</td>
-                <td>:</td>
-                <td>
-                    <select>
-
-                        <option disabled selected>
-                            select your State 
-                        </option>
-                        <option>
-                            Andhra pradesh
-                        </option>
-                        <option>
-                            Arynachal pradesh
-                        </option>
-                        <option>
-                            Assam
-                        </option>
-                        <option>
-                            Bihar
-                        </option>
-                        <option>
-                            Chattisgarth
-                        </option>
-                        <option>
-                            Goa
-                        </option>
-                        <option>
-                            Gujarat
-                        </option>
-                        <option>
-                            Haryana
-                        </option>
-                        <option>
-                            Himachal Pradesh
-                        </option>
-                        <option>
-                            Jharkhand
-                        </option>
-                        <option>
-                            Karnataka
-                        </option>
-                        <option>
-                            Kerala
-                        </option>
-                        Rajasthan
-                        </option>
-
-                    </select>
-                </td>
-            </tr>
-
-            <tr>
-                <td>Uplod Resume</td>
-                <td>:</td>
-                <td><input type="file" placeholder="Choose File"></td>
-            </tr>
-
-            <tr>
-                <td><label for="Address">Address</label></td>
-                <td>:</td>
-                <td>
-                    <input type="text" placeholder="Enter your full address" id="Address" size="18">
-                    <!-- <textarea placeholder="Enter your full address" id="Address" ></textarea> -->
-                </td>
-            </tr>
-
-            <tr>
-                <td>Date of Birth</td>
-                <td>:</td>
-                <td><input type="date" placeholder="enter your Date Of Birth" id="fname"></td>
-            </tr>
-
-            <tr>
-                <td colspan="3">Preferred Interview Time : 
-                    <input type="time" name="interview_time">
-                </td>
-            </tr>
-
-            <tr>
-                <td>Marks</td>
-                <td>:</td>
-                <td><input type="number" size="6"></td>
-            </tr> 
-
-            <tr>
-                <td><input type="submit" placeholder="Submit">
-                    <input type="reset" placeholder="Reset">
-                </td>
-            </tr>
-
-
-        </table>   
-        
         <div class="tital">
             <h2>~ More Information</h2>
         </div>
 
-        Explore government job opportunities on the official OJAS website:<br><br>
-
+        <p>
+            Explore government job opportunities on the official OJAS website:<br><br>
+        </p>
         <iframe src="https://ojas.gujarat.gov.in/"></iframe><br><br>
         <a href="home.html">&#8592 Back to Home</a><br><br>
 
